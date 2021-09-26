@@ -1,0 +1,11 @@
+{
+    "name": "syed/magicid",
+    "description": "Magically alter table id with primary key and add autoincrement",
+    "authors": [
+        {
+            "name": "Syed Ali",
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
