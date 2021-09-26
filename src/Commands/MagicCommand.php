@@ -1,6 +1,6 @@
 <?php
 
-namespace Syed\magicid\Commands;
+namespace Syedali\magicid\Commands;
 
 use Illuminate\Console\Command;
 
@@ -16,7 +16,7 @@ class MagicCommand extends Command {
 
     public function handle() {
 
-    	\App::make("\Syed\magicid\Controllers\DatabaseupdateController")->database_update();
+    	\App::make("\Syedali\magicid\Controllers\DatabaseupdateController")->database_update();
         echo 'Successully Executed !';
     }
 
