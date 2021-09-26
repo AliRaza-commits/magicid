@@ -15,7 +15,7 @@
     "laravel":{  
       "providers":[  
         "Syedali\\magicid\\SyedaliServiceProvider"
-      ],
+      ]
     }
   },
     "minimum-stability": "dev",
