@@ -1,5 +1,5 @@
 {
-    "name": "syed/magicid",
+    "name": "syedali/magicid",
     "description": "Magically alter table id with primary key and add autoincrement",
     "authors": [
         {
