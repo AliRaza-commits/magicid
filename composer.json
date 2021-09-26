@@ -14,13 +14,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Syedali\\magicid\\" :   "packages/syedali/magicid/src"
+            "Syedali\\magicid\\" :   "src/"
         }
     },
     "extra":{  
     "laravel":{  
       "providers":[  
-        "Syedali\\magicid\\SyedaliServiceProvider"
+        "Syedali\\\magicid\\SyedaliServiceProvider"
       ]
     }
   },
