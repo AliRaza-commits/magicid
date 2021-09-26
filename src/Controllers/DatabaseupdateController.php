@@ -1,6 +1,6 @@
 <?php
 
-namespace Syed\magicid\Controllers;
+namespace Syedali\magicid\Controllers;
 
 use App\Http\Controllers\Controller;
 
