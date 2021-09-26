@@ -1,5 +1,5 @@
 # Magicid
-## Updating IDs with Primary Key And Auto-increment through command prompt
+## Updating IDs with Auto-increment and Primary Key
 
 ### Steps for Installation:
 ```
