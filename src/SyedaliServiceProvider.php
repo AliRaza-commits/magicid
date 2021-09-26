@@ -14,6 +14,7 @@ class SyedaliServiceProvider extends ServiceProvider
     public function register()
     {
         include __DIR__."/routes.php";  
+         $this->load(__DIR__ . '/Commands');
        
     }
 
