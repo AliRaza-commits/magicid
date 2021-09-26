@@ -1,6 +1,6 @@
 <?php
 
-namespace Syed\magicid;
+namespace Syedali\magicid;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Event;
