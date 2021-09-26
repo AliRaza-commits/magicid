@@ -9,7 +9,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "../../packages/syedali/magicid"
+            "url": "https://github.com/AliRaza-commits/magicid"
         }
     ],
     "require": {
