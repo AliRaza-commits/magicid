@@ -3,7 +3,7 @@
     "description": "Magically alter table id with primary key and add autoincrement",
     "authors": [
         {
-            "name": "Syed Ali",
+            "name": "Syed Ali"
         }
     ],
     "minimum-stability": "dev",
