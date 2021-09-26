@@ -25,7 +25,7 @@ class SyedaliServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                \Syedali\magicid\Commands\MagicCommand::class,
+                \Commands\MagicCommand::class,
             ]);
         }
     }
