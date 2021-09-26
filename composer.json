@@ -14,7 +14,7 @@
     ],
     "require": {
         "syedali/magicid": "dev-master"
-    }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
