@@ -6,6 +6,15 @@
             "name": "Syed Ali"
         }
     ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../packages/syedali/magicid"
+        }
+    ],
+    "require": {
+        "syedali/magicid": "dev-master"
+    }
     "minimum-stability": "dev",
     "require": {}
 }
