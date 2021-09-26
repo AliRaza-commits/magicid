@@ -1,10 +1,10 @@
 <?php
 
-namespace Syed\magicid;
+namespace Syedali\magicid;
 
 use Illuminate\Support\ServiceProvider;
 
-class SyedServiceProvider extends ServiceProvider
+class SyedaliServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
@@ -26,7 +26,7 @@ class SyedServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                \Syed\magicid\Commands\MagicCommand::class,
+                \Syedali\magicid\Commands\MagicCommand::class,
             ]);
         }
     }
