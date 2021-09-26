@@ -6,15 +6,18 @@
             "name": "Syed Ali"
         }
     ],
-    "repositories": [
-        {
-            "type": "path",
-            "url": "https://github.com/AliRaza-commits/magicid"
+    "autoload": {
+        "psr-4": {
+            "Syedali\\magicid\\" :   "packages/syedali/magicid/src"
         }
-    ],
-    "require": {
-        "syedali/magicid": "dev-master"
     },
+    "extra":{  
+    "laravel":{  
+      "providers":[  
+        "Syedali\\magicid\\SyedaliServiceProvider"
+      ],
+    }
+  },
     "minimum-stability": "dev",
     "require": {}
 }
